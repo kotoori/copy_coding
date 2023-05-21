@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+@media screen and (max-width:600px) {
+    body{
+        min-width: 0;
+    }
+
+    .wrapper{
+        width:96%;
+    }
+
+    /***
+     About
+    ***/
+    .about-box{
+        margin:0 auto 96px;
+    }
+    .about-box .section-title{
+        margin-bottom: 60px;
+    }
+
+    .about-content{
+        display: block;
+        text-align: center;
+    }
+    .about-content .about-text{
+        width: 88.3%;
+        margin-left: 4%;
+        text-align: left;        
+    }
+
+    .about-text h3{
+        margin: 15px 0;
+}
+
+    /***
+     Bicycle
+    ***/
+    .bicycle-content{
+        display: block;
+    }
+
+    .bicycle-box .content-box{
+        width: 96%;   
+        margin-bottom: 34px; 
+    }
+    
+    .bicycle-box .content-box img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .bicycle-box .content-box h3{
+        text-align: center;
+        margin: 13px auto 17px;
+    }
+    
+    .bicycle-box .content-box p{
+        text-align: center;
+    }
+    

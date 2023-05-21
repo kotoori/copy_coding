@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/***
+ General Setting
+***/
+body{
+    background: #FFF;
+    color: #383E45;
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino kaku Gothic ProN", sans-serif;
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+h3{
+    font-size: 1rem ;
+    font-weight: bold;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapper{
+    max-width: 820px;
+    margin: 0 auto; 
+}
+
+.section-title{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 7px;
+    border-bottom: solid 1px #383E45 ;
+    width:fit-content;
+    margin: 0 auto;
+}
+
+/***
+ header
+***/
+#header{
+    margin:10px auto;
+    align-items: center;
+}
+
+#header h1 a{
+    display: block;
+}
+
+#header h1 img{
+    width: auto;
+    height: 40px;
+}
+
+#header nav{
+    font-size: 0.875rem;
+    width: 108px;
+    color: #24292E;
+}
+
+#header nav a:hover{
+    opacity: 0.8;
+}
+
+/***
+ mainvisual
+***/
+#mainvisual{
+    margin-bottom: 89px;
+}
+#mainvisual img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+/***
+ About
+***/
+.about-box{
+    max-width: 540px;
+    margin: 0 auto 105px;
+}
+
+.about-box .section-title{
+    margin-bottom: 69px;
+}
+
+.about-content{
+    margin-right: 1.67%;
+}
+
+.about-content img{
+    width: auto;
+    height: 100px;
+    border-radius: 50%;
+    padding:0 0.741%;
+}
+
+.about-content .about-text{
+   width :75%; 
+}
+
+.about-text h3{
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+
+.about-text p{
+    line-height: 1.5;
+}
+
+/***
+ Bicycle
+***/
+.bicycle-box{
+    margin-bottom: 117px;
+}
+
+.bicycle-box .section-title{
+    margin-bottom: 60px;
+}
+
+.bicycle-box .content-box{
+    width: 32%;    
+}
+
+.bicycle-box .content-box img{
+    width: 100%;
+    height: auto;
+}
+
+.bicycle-box .content-box h3{
+    text-align: center;
+    margin: 13px auto 17px;
+}
+
+
+.bicycle-box .content-box p{
+    text-align: center;
+}
+
+/***
+ footer
+***/
+#footer{
+    text-align: center;
+    margin-bottom: 12px;
+}
