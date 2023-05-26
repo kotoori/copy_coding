@@ -18,10 +18,10 @@
 
 <body>
     <!-- header -->
-    <header class="wrapper">
-        <h1><a href="#"><img src="images/logo.svg" alt="Profile"></a></h1>
+    <header id="header" class="wrapper flex-box">
+        <h1><a href="#"><img class="img-logo" src="images/logo.svg" alt="Profile"></a></h1>
         <nav>
-            <ul>
+            <ul class="flex-box">
                 <li><a href="#about">About</a></li>
                 <li><a href="#bicycle">Bicycle</a></li>
             </ul>
@@ -34,8 +34,8 @@
     </div>
 
     <!-- About -->
-    <section>
-        <h2 id="about">About</h2>
+    <section id="about" class="wrapper">
+        <h2 class="section-title">About</h2>
         <div class="content-box flex-box">
             <img src="images/about.jpg" alt="About image">
             <div class="text-box">
@@ -46,31 +46,31 @@
     </section>
 
     <!-- Bicycle -->
-    <section>
-        <h2 id="Bicycle">Bicycle</h2>
+    <section id="bicycle" class="wrapper">
+        <h2 class="section-title">Bicycle</h2>
         <div class="flex-box">
             <!-- bicycle 1 -->
             <div class="bicycle-content">
                 <img src="images/bicycle1.jpg" alt="bicycle1">
-                <h2>タイトルタイトル</h2>
+                <h3>タイトルタイトル</h3>
                 <p>テキストテキストテキスト</p>
             </div>
             <!-- bicycle 2 -->
             <div class="bicycle-content">
                 <img src="images/bicycle2.jpg" alt="bicycle2">
-                <h2>タイトルタイトル</h2>
+                <h3>タイトルタイトル</h3>
                 <p>テキストテキストテキスト</p>
             </div>
             <!-- bicycle 3 -->
             <div class="bicycle-content">
                 <img src="images/bicycle3.jpg" alt="bicycle3">
-                <h2>タイトルタイトル</h2>
+                <h3>タイトルタイトル</h3>
                 <p>テキストテキストテキスト</p>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer id="footer" class="wrapper">
         <p>&copy; 2020 Profile</p>
     </footer>
 </body>
