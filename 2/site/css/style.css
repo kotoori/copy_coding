@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/***
+* General Setting
+***/
+body{
+    background: #F4F9FF;
+    font-size: 0.875rem;
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino kaku Gothic ProN", sans-serif;
+    color: #333333;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+h2,h3{
+    font-size: 1.125rem;
+    font-weight: bold;    
+}
+
+.inner{
+    max-width: 600px;
+    width: 100%;
+    padding: 0 20%;
+    box-sizing: content-box;
+}
+
+/***
+* header
+***/
+#header{
+    margin: 60px auto 15px;
+}
+
+#header a{
+    display: inline-block;
+}
+#header img{
+    width: 160px;
+    height: auto;
+}
+
+/***
+* mainvisual
+***/
+.mainvisual{
+    margin-bottom: 60px;
+}
+
+.mainvisual img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/***
+* INDEX
+***/
+#index{
+    background: #fff;
+    margin-bottom: 65px;
+}
+
+#index .section-title{
+    padding: 35px 0 17px;
+}
+
+#index ol{
+    list-style: decimal;
+    padding-left: 16px;
+    padding-bottom: 22.5px;
+    line-height: 2.56;
+}
+
+/***
+* DETAIL
+***/
+#detail{
+    margin-bottom: 118px;
+}
+
+#detail .section-title{
+    margin-bottom: 14px;
+}
+
+#detail .flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#detail img{
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+#detail .book-text{
+    width: 45%;
+}
+
+#detail .book-text .title{
+    margin-bottom: 26px;
+}
+
+#detail .book-text .attribute{
+    margin-bottom: 28px;
+    padding: 19px 0 20px;
+    border-top: solid 1px #DEDEDE;
+    border-bottom: solid 1px #DEDEDE;
+
+}
+
+#detail .book-text .attribute{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 7px;
+}
+
+#detail .book-text .attribute dt{
+    width: 24.07%
+}
+
+#detail .book-text .attribute dd{
+    width: 75.93%;
+}
+
+#detail .book-text .comment{
+    margin-bottom: 21px;
+}
+
+#detail .book-text .store-link{
+    text-decoration: underline;
+}
+
+/***
+* footer
+***/
+footer{
+    text-align: center;
+    font-size: 0.75rem;
+    margin-bottom: 17px;
+}

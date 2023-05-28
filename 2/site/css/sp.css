@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1024px){
+    body{
+        background: greenyellow;
+        max-width: none;
+    }
+
+
+    /***
+    * header
+    ***/
+    #header{
+        margin-left: 2.667%;
+    }
+
+    /***
+    * mainvisual
+    ***/
+    .mainvisual{
+        margin: 0 2.667% 60px;
+    }
+
+    /***
+    * INDEX
+    ***/
+    #index{
+        width: 100%;
+    }
+
+    /***
+    * DETAIL
+    ***/
+    #detail .flex-container{
+        display: block; 
+    }
+
+    #detail img{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+    #detail .book-text{
+        width: 100%;
+    }
+
+}
