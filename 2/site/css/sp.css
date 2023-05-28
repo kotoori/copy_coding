@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 @media screen and (max-width:1024px){
+    /***
+    * General Settings
+    ***/
     body{
         background: greenyellow;
         max-width: none;
     }
-
 
     /***
     * header
