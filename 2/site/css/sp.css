@@ -8,6 +8,11 @@
         max-width: none;
     }
 
+    .inner{
+        width: 78.6%;
+        padding: 0 10.7%;
+    }
+
     /***
     * header
     ***/
@@ -25,9 +30,6 @@
     /***
     * INDEX
     ***/
-    #index{
-        width: 100%;
-    }
 
     /***
     * DETAIL

@@ -19,7 +19,8 @@ h2,h3{
 
 .inner{
     max-width: 600px;
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
     padding: 0 20%;
     box-sizing: content-box;
 }
